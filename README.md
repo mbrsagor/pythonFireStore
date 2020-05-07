@@ -44,4 +44,7 @@ Then active virtualenv
 ```
 source venv/bin/activate
 ```
-
+### Run Flask app
+```
+python -m flask run
+```
