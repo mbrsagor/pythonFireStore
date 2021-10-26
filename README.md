@@ -4,7 +4,8 @@
 
 ### Dependancies
 
-- Python 3.6.9 / Flask 3.0
+- Python 3.6.9
+- Flask 3.0
 
 The following steps will walk you thru installation on a Mac. Linux should be similar.
 It's also possible to develop on a Windows machine, but I have not documented the steps.
@@ -48,3 +49,4 @@ source venv/bin/activate
 ```
 python -m flask run
 ```
+###### N:B: For the learing purpose I used the `flask` application.
