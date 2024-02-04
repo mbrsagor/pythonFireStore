@@ -12,12 +12,21 @@ up and running.
 #### Dependencies
 ###### Prerequisites
 
-- Python 3.8.9 
+- Python 3.10
 
+```bash
+git clone https://github.com/mbrsagor/pythonFireStore.git
+cd pythonFireStore
+```
 
-Create virtualenv in your system then follow the comments:
-```` virtualenv venv --python=python3.10 ````
+> Then,
 
-If you successfully create the virtualenv then activate:
-```source venv/bin/activate```
+> Create virtualenv in your system then follow the comments:
+```bash
+virtualenv venv --python=python3.10
+```
 
+> If you successfully create the virtualenv then activate:
+```bash
+source venv/bin/activate
+```
