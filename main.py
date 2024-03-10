@@ -31,3 +31,17 @@ def update_user(first, last, born, user_id):
     users_ref = db.collection("users").document(user_id)
     print("Updated Successfully.")
     return users_ref.update({"first": first, "last": last, "born": born})
+
+
+# List of ramadan
+def list_of_ramadan():
+    ramadans = []
+    ramadan = db.collection('ramadan')
+    for rama in ramadan.stream():
+        ramadans.append(rama.to_dict())
+    resp = {
+        'status': 'success',
+        'message': 'Successfully data returned',
+        'data': ramadans
+    }
+    return resp
