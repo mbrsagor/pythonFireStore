@@ -8,6 +8,7 @@ app = firebase_admin.initialize_app(cred)
 db = firestore.client()
 
 
+# List of user
 def get_users():
     my_users = []
     users = db.collection('users')
@@ -21,12 +22,14 @@ def get_users():
     return resp
 
 
+# Create new user
 def create_user(first, last, born):
     users_ref = db.collection("users")
     print("Create Successfully.")
     return users_ref.add({"first": first, "last": last, "born": born})
 
 
+# Update the user
 def update_user(first, last, born, user_id):
     users_ref = db.collection("users").document(user_id)
     print("Updated Successfully.")
