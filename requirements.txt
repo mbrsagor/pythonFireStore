@@ -14,7 +14,7 @@ djangorestframework==3.13.1
 docutils==0.16
 et-xmlfile==1.1.0
 executing==0.8.3
-ipython==8.2.0
+ipython==8.10.0
 jedi==0.18.1
 jmespath==1.0.1
 matplotlib-inline==0.1.3
