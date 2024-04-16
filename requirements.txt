@@ -39,7 +39,7 @@ rsa==4.7.2
 s3transfer==0.6.0
 six==1.16.0
 sortedcontainers==2.4.0
-sqlparse==0.4.4
+sqlparse==0.5.0
 stack-data==0.2.0
 traitlets==5.1.1
 urllib3==1.26.18
