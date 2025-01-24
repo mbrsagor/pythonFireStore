@@ -31,3 +31,16 @@ virtualenv venv --python=python3.10
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+
+> Lambda function simple example:
+```python
+import json
+
+def lambda_handler(event, context):
+    # TODO implement
+    return {
+        'status_code': 200,
+        'body': json.dumps('Hello, MR. Bozlur Rosid Sagor')
+    }
+```
