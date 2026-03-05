@@ -1,7 +1,7 @@
 appnope==0.1.3
 asgiref==3.4.1
 asttokens==2.0.5
-awscli==1.27.123
+awscli==1.44.38
 backcall==0.2.0
 backports.zoneinfo==0.2.1
 botocore==1.29.123
